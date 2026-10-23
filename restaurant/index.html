@@ -8,12 +8,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&family=Amiri:wght@700&display=swap" rel="stylesheet">
 <style>
-  body{font-family:'Inter',sans-serif;background:#0e0b08;color:#f3ead9}
+  body{font-family:'Inter',sans-serif;background:#fdf8f5;color:#43302a}
   .font-display{font-family:'Playfair Display',serif}
   .font-ar{font-family:'Amiri',serif}
-  .gold{color:#d4a94e}
+  .gold{color:#b8860b}
   .gold-bg{background:linear-gradient(135deg,#d4a94e,#b8860b)}
-  .card{background:#171310;border:1px solid #2a2118}
+  .card{background:#ffffff;border:1px solid #f0e2dc;box-shadow:0 6px 24px rgba(184,134,11,.08)}
   .hero-img{height:62vh;min-height:420px;object-fit:cover;width:100%}
   .dish-img{height:190px;object-fit:cover;width:100%}
 </style>
@@ -21,16 +21,16 @@
 <body>
 
 <!-- Header -->
-<header class="fixed top-0 inset-x-0 z-50 bg-black/70 backdrop-blur border-b border-white/10">
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b border-amber-100">
   <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
     <div>
       <p class="font-display text-xl font-bold leading-none">Layali <span class="gold">Nights</span></p>
       <p class="font-ar text-sm gold leading-none mt-1">مطعم ليالي</p>
     </div>
-    <nav class="hidden md:flex gap-6 text-sm text-stone-300">
-      <a href="#menu" class="hover:text-white">Menu</a>
-      <a href="#about" class="hover:text-white">About</a>
-      <a href="#visit" class="hover:text-white">Visit Us</a>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#menu" class="hover:text-stone-900">Menu</a>
+      <a href="#about" class="hover:text-stone-900">About</a>
+      <a href="#visit" class="hover:text-stone-900">Visit Us</a>
     </nav>
     <a href="https://wa.me/971501234567?text=Hello%20Layali%20Nights!%20I%20would%20like%20to%20book%20a%20table." class="gold-bg text-black font-semibold text-sm px-4 py-2 rounded-full">Book a Table</a>
   </div>
@@ -39,14 +39,14 @@
 <!-- Hero -->
 <section class="relative pt-16">
   <img class="hero-img" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop" alt="Layali Nights restaurant interior">
-  <div class="absolute inset-0 bg-gradient-to-t from-[#0e0b08] via-black/40 to-black/30 flex items-end">
+  <div class="absolute inset-0 bg-gradient-to-t from-[#fdf8f5] via-white/20 to-transparent flex items-end">
     <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
       <p class="font-ar text-2xl gold mb-2">أهلاً وسهلاً بكم</p>
       <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">A Taste of Arabia,<br>Served Every Night</h1>
-      <p class="mt-3 text-stone-300 max-w-xl">Charcoal grills, slow-cooked mandi and fresh-baked bread — in the heart of Deira, Dubai. Open daily 11 AM – 12 midnight.</p>
+      <p class="mt-3 text-stone-600 max-w-xl">Charcoal grills, slow-cooked mandi and fresh-baked bread — in the heart of Deira, Dubai. Open daily 11 AM – 12 midnight.</p>
       <div class="mt-5 flex flex-wrap gap-3">
         <a href="#menu" class="gold-bg text-black font-semibold px-5 py-3 rounded-full">View Menu</a>
-        <a href="https://wa.me/971501234567?text=Hello!%20I%20would%20like%20to%20order%20for%20delivery." class="bg-white/10 border border-white/25 backdrop-blur px-5 py-3 rounded-full font-semibold">Order on WhatsApp</a>
+        <a href="https://wa.me/971501234567?text=Hello!%20I%20would%20like%20to%20order%20for%20delivery." class="bg-white border border-amber-200 px-5 py-3 rounded-full font-semibold">Order on WhatsApp</a>
       </div>
     </div>
   </div>
@@ -54,48 +54,48 @@
 
 <!-- Highlights -->
 <section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-  <div class="card rounded-2xl p-4"><p class="text-2xl">🔥</p><p class="font-semibold mt-1">Charcoal Grill</p><p class="text-sm text-stone-400">Cooked fresh to order</p></div>
-  <div class="card rounded-2xl p-4"><p class="text-2xl">🛵</p><p class="font-semibold mt-1">Fast Delivery</p><p class="text-sm text-stone-400">30–45 min in Deira</p></div>
-  <div class="card rounded-2xl p-4"><p class="text-2xl">👨‍👩‍👧‍👦</p><p class="font-semibold mt-1">Family Hall</p><p class="text-sm text-stone-400">Private seating available</p></div>
-  <div class="card rounded-2xl p-4"><p class="text-2xl">⭐</p><p class="font-semibold mt-1">4.9 Rating</p><p class="text-sm text-stone-400">2,300+ Google reviews</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🔥</p><p class="font-semibold mt-1">Charcoal Grill</p><p class="text-sm text-stone-500">Cooked fresh to order</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🛵</p><p class="font-semibold mt-1">Fast Delivery</p><p class="text-sm text-stone-500">30–45 min in Deira</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">👨‍👩‍👧‍👦</p><p class="font-semibold mt-1">Family Hall</p><p class="text-sm text-stone-500">Private seating available</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">⭐</p><p class="font-semibold mt-1">4.9 Rating</p><p class="text-sm text-stone-500">2,300+ Google reviews</p></div>
 </section>
 
 <!-- Menu -->
 <section id="menu" class="max-w-6xl mx-auto px-4 pb-14">
   <h2 class="font-display text-3xl md:text-4xl font-bold">Chef's <span class="gold">Specials</span></h2>
-  <p class="text-stone-400 mt-1">Our most loved dishes — made the traditional way.</p>
+  <p class="text-stone-500 mt-1">Our most loved dishes — made the traditional way.</p>
   <div class="grid md:grid-cols-3 gap-5 mt-6">
     <div class="card rounded-3xl overflow-hidden">
       <img class="dish-img" src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Mixed grill platter">
       <div class="p-5">
         <div class="flex justify-between items-start"><h3 class="font-display text-xl font-bold">Layali Mixed Grill</h3><span class="gold font-bold">AED 85</span></div>
-        <p class="text-sm text-stone-400 mt-1">Lamb chops, chicken tikka, kebab and shish tawook over charcoal, served with garlic sauce and fresh naan.</p>
+        <p class="text-sm text-stone-500 mt-1">Lamb chops, chicken tikka, kebab and shish tawook over charcoal, served with garlic sauce and fresh naan.</p>
       </div>
     </div>
     <div class="card rounded-3xl overflow-hidden">
       <img class="dish-img" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop" alt="Mandi and rice dishes">
       <div class="p-5">
         <div class="flex justify-between items-start"><h3 class="font-display text-xl font-bold">Chicken Mandi</h3><span class="gold font-bold">AED 45</span></div>
-        <p class="text-sm text-stone-400 mt-1">Smoky slow-cooked chicken over fragrant spiced rice, with sahawiq and salad. A Yemeni classic.</p>
+        <p class="text-sm text-stone-500 mt-1">Smoky slow-cooked chicken over fragrant spiced rice, with sahawiq and salad. A Yemeni classic.</p>
       </div>
     </div>
     <div class="card rounded-3xl overflow-hidden">
       <img class="dish-img" src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1200&auto=format&fit=crop" alt="Kunafa dessert">
       <div class="p-5">
         <div class="flex justify-between items-start"><h3 class="font-display text-xl font-bold">Kunafa Layali</h3><span class="gold font-bold">AED 30</span></div>
-        <p class="text-sm text-stone-400 mt-1">Crispy golden kunafa with molten cheese and pistachio — the sweet ending every table orders twice.</p>
+        <p class="text-sm text-stone-500 mt-1">Crispy golden kunafa with molten cheese and pistachio — the sweet ending every table orders twice.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- About / Visit -->
-<section id="about" class="bg-[#14100c] border-y border-white/5">
+<section id="about" class="bg-white border-y border-amber-100">
   <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
     <div>
       <h2 class="font-display text-3xl font-bold">Since 2009, One Promise: <span class="gold">Real Arabic Flavour</span></h2>
-      <p class="text-stone-400 mt-3">Family-run since 2009, Layali Nights brings recipes from Amman and Sana'a to Dubai. No shortcuts — spices ground in-house, bread baked in our clay oven, and grills fired on real charcoal.</p>
-      <ul class="mt-4 space-y-2 text-stone-300 text-sm">
+      <p class="text-stone-600 mt-3">Family-run since 2009, Layali Nights brings recipes from Amman and Sana'a to Dubai. No shortcuts — spices ground in-house, bread baked in our clay oven, and grills fired on real charcoal.</p>
+      <ul class="mt-4 space-y-2 text-stone-600 text-sm">
         <li>✔ Halal certified, daily fresh meat</li>
         <li>✔ Group & event catering up to 200 guests</li>
         <li>✔ Free valet parking on weekends</li>
@@ -103,7 +103,7 @@
     </div>
     <div id="visit" class="card rounded-3xl p-6">
       <h3 class="font-display text-2xl font-bold">Visit Us</h3>
-      <div class="mt-3 space-y-2 text-stone-300 text-sm">
+      <div class="mt-3 space-y-2 text-stone-600 text-sm">
         <p>📍 Al Rigga Road, Deira, Dubai, UAE</p>
         <p>🕚 Open daily: 11:00 AM – 12:00 midnight</p>
         <p>📞 +971 50 123 4567</p>
