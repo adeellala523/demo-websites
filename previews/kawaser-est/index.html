@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kawaser Est. — Custom Fabrication in Riyadh</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&family=Amiri:wght@700&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#f7f7f5;color:#2b2b28}
+  .font-display{font-family:'Playfair Display',serif}
+  .font-ar{font-family:'Amiri',serif}
+  .acc{color:#334155}
+  .acc-bg{background:linear-gradient(135deg,#475569,#334155)}
+  .card{background:#ffffff;border:1px solid #e2e2dc;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+  .hero-img{height:60vh;min-height:400px;object-fit:cover;width:100%}
+  .svc-img{height:180px;object-fit:cover;width:100%}
+</style>
+</head>
+<body>
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div>
+      <p class="font-display text-xl font-bold leading-none">Kawaser <span class="acc">Est.</span></p>
+      <p class="font-ar text-sm acc leading-none mt-1">مؤسسة كواسر الرياض</p>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#services" class="hover:text-stone-800">Services</a>
+      <a href="#about" class="hover:text-stone-800">About</a>
+      <a href="#visit" class="hover:text-stone-800">Contact</a>
+    </nav>
+    <a href="https://wa.me/966536045000?text=Hello%20Kawaser%20Est!%20I%20would%20like%20a%20quote." class="acc-bg text-white font-semibold text-sm px-4 py-2 rounded-full">Get a Free Quote</a>
+  </div>
+</header>
+<section class="relative pt-16">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1600&auto=format&fit=crop" alt="Kawaser Est.">
+  <div class="absolute inset-0 bg-gradient-to-t from-white via-white/20 to-transparent flex items-end">
+    <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
+      <p class="text-xl acc mb-2 font-semibold">Riyadh &middot; Aluminum, Steel & Glass Fabrication</p>
+      <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">Fabrication for<br>Real Projects</h1>
+      <p class="mt-3 text-stone-600 max-w-xl">Aluminum, steel and glass fabrication in Riyadh — including custom caravan building and powder-coating, made to your specification.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="#services" class="acc-bg text-white font-semibold px-5 py-3 rounded-full">Our Services</a>
+        <a href="https://wa.me/966536045000" class="bg-white border px-5 py-3 rounded-full font-semibold">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="font-display text-3xl md:text-4xl font-bold text-center">What We <span class="acc">Do</span></h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1200&auto=format&fit=crop" alt="Aluminum & Steel Work">
+      <div class="p-5"><h3 class="font-bold text-lg">Aluminum & Steel Work</h3><p class="text-sm text-stone-600 mt-1">Doors, windows and structures in aluminum and steel.</p></div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1200&auto=format&fit=crop" alt="Custom Caravan Building">
+      <div class="p-5"><h3 class="font-bold text-lg">Custom Caravan Building</h3><p class="text-sm text-stone-600 mt-1">Caravans built to your specification, inside and out.</p></div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=1200&auto=format&fit=crop" alt="Glass & Powder-Coating">
+      <div class="p-5"><h3 class="font-bold text-lg">Glass & Powder-Coating</h3><p class="text-sm text-stone-600 mt-1">Glass work and powder-coated finishes for a clean, durable result.</p></div>
+    </div>
+  </div>
+</section>
+<section id="about" class="max-w-6xl mx-auto px-4 py-8">
+  <div class="card rounded-3xl p-8">
+    <h2 class="font-display text-3xl font-bold">About Kawaser Est.</h2>
+    <p class="mt-3 text-stone-600">Kawaser Est. is a fabrication business in Riyadh working in aluminum, steel and glass — from doors and windows to custom caravan builds and powder-coated finishes, produced to order.</p>
+  </div>
+</section>
+<section id="visit" class="max-w-6xl mx-auto px-4 py-8 pb-16">
+  <div class="card rounded-3xl p-8 text-center">
+    <h2 class="font-display text-3xl font-bold">Get in Touch</h2>
+    <p class="mt-3 text-stone-600">Riyadh &middot; Call or WhatsApp us for a free quote.</p>
+    <div class="mt-5 flex flex-wrap justify-center gap-3">
+      <a href="tel:+966536045000" class="acc-bg text-white font-semibold px-5 py-3 rounded-full">Call 0536045000</a>
+      <a href="mailto:info@kawaserest.com" class="bg-white border px-5 py-3 rounded-full font-semibold">info@kawaserest.com</a>
+    </div>
+    <p class="mt-6 text-xs text-stone-400">Free preview website made for Kawaser Est..</p>
+  </div>
+</section>
+</body>
+</html>
