@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grove Star Beauty Salon — Al Majaz 1, Sharjah</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#fdf8f5;color:#3d2c29}
+  .font-display{font-family:'Playfair Display',serif}
+  .rose{color:#b3546e}
+  .rose-bg{background:linear-gradient(135deg,#c96f87,#b3546e)}
+  .card{background:#ffffff;border:1px solid #f0e2dc;box-shadow:0 6px 24px rgba(179,84,110,.08)}
+  .hero-img{height:60vh;min-height:400px;object-fit:cover;width:100%}
+  .svc-img{height:180px;object-fit:cover;width:100%}
+</style>
+</head>
+<body>
+
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b border-rose-100">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div>
+      <p class="font-display text-xl font-bold leading-none">Grove <span class="rose">Star</span></p>
+      <p class="text-xs text-stone-500 leading-none mt-1">Beauty Salon · Al Majaz 1, Sharjah</p>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#services" class="hover:text-stone-800">Services</a>
+      <a href="#bridal" class="hover:text-stone-800">Bridal</a>
+      <a href="#visit" class="hover:text-stone-800">Visit Us</a>
+    </nav>
+    <a href="tel:+971505931932" class="rose-bg text-white font-semibold text-sm px-4 py-2 rounded-full">Book Now</a>
+  </div>
+</header>
+
+<section class="relative pt-16">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1600&auto=format&fit=crop" alt="Grove Star salon interior">
+  <div class="absolute inset-0 bg-gradient-to-t from-[#fdf8f5] via-white/20 to-transparent flex items-end">
+    <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
+      <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">Beauty, All in<br>One Place</h1>
+      <p class="mt-3 text-stone-600 max-w-xl">Hair, nails, skin, henna and bridal packages — Grove Star Beauty Salon in Al Majaz 1, Sharjah, for every occasion.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="#services" class="rose-bg text-white font-semibold px-5 py-3 rounded-full">See Services</a>
+        <a href="https://wa.me/971505931932?text=Hello%20Grove%20Star!%20I%20would%20like%20to%20book%20an%20appointment." class="bg-white border border-rose-200 px-5 py-3 rounded-full font-semibold">Book on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="font-display text-3xl md:text-4xl font-bold text-center">Our <span class="rose">Services</span></h2>
+  <div class="grid md:grid-cols-2 gap-5 mt-8">
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1200&auto=format&fit=crop" alt="Hair styling">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Hair</h3>
+        <p class="text-sm text-stone-500 mt-1">Cuts, styling and hair care by the Grove Star team.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=1200&auto=format&fit=crop" alt="Nails">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Nails</h3>
+        <p class="text-sm text-stone-500 mt-1">Manicure, pedicure and nail art for a polished finish.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=1200&auto=format&fit=crop" alt="Skin care and makeup">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Skin</h3>
+        <p class="text-sm text-stone-500 mt-1">Skin treatments and makeup for everyday glow and special days.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="svc-img" src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=1200&auto=format&fit=crop" alt="Henna art">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Henna</h3>
+        <p class="text-sm text-stone-500 mt-1">Beautiful henna designs for weddings, Eid and celebrations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bridal" class="bg-[#fbeeea] border-y border-rose-100">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="font-display text-3xl font-bold">Bridal <span class="rose">Packages</span></h2>
+      <p class="text-stone-500 mt-3">Your big day, fully covered — hair, skin, nails and henna in one bridal package at Grove Star. Call us to plan your bridal look and reserve your date.</p>
+      <a href="tel:+971505931932" class="mt-5 inline-block rose-bg text-white font-semibold px-5 py-3 rounded-full">Plan My Bridal Package</a>
+    </div>
+    <div class="card rounded-3xl p-6">
+      <h3 class="font-display text-2xl font-bold">What's included</h3>
+      <ul class="mt-3 space-y-2 text-stone-600 text-sm">
+        <li>✔ Hair styling for the big day</li>
+        <li>✔ Skin &amp; makeup</li>
+        <li>✔ Nails, mani-pedi</li>
+        <li>✔ Henna designs</li>
+      </ul>
+      <p class="text-sm text-stone-500 mt-4">Packages are tailored to each bride — call for details and booking.</p>
+    </div>
+  </div>
+</section>
+
+<section id="visit" class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+  <div>
+    <h2 class="font-display text-3xl font-bold">Visit <span class="rose">Grove Star</span></h2>
+    <p class="text-stone-500 mt-3">In Al Majaz 1, Sharjah. Book ahead on WhatsApp or call — weekends fill fast.</p>
+  </div>
+  <div class="card rounded-3xl p-6">
+    <h3 class="font-display text-2xl font-bold">Visit Us</h3>
+    <div class="mt-3 space-y-2 text-stone-600 text-sm">
+      <p>📍 Al Majaz 1, Sharjah, UAE</p>
+      <p>📞 050 593 1932</p>
+    </div>
+    <a href="https://wa.me/971505931932?text=Hello%20Grove%20Star!" class="mt-5 block text-center rose-bg text-white font-semibold px-5 py-3 rounded-full">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer class="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-stone-400">
+  <p>© 2026 Grove Star Beauty Salon — Free preview website</p>
+  <p class="mt-1">Free preview crafted by <span class="rose font-semibold">Adeel Abbas</span> · Web Developer — this is how your new website could look.</p>
+</footer>
+
+</body>
+</html>
