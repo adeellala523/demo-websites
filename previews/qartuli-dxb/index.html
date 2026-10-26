@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qartuli — Authentic Georgian Restaurant in Downtown Dubai</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#fdf8f5;color:#43302a}
+  .font-display{font-family:'Playfair Display',serif}
+  .gold{color:#b8860b}
+  .gold-bg{background:linear-gradient(135deg,#d4a94e,#b8860b)}
+  .card{background:#ffffff;border:1px solid #f0e2dc;box-shadow:0 6px 24px rgba(184,134,11,.08)}
+  .hero-img{height:62vh;min-height:420px;object-fit:cover;width:100%}
+  .dish-img{height:190px;object-fit:cover;width:100%}
+</style>
+</head>
+<body>
+
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b border-amber-100">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div>
+      <p class="font-display text-xl font-bold leading-none">Qartuli</p>
+      <p class="text-xs text-stone-500 leading-none mt-1">Georgian Restaurant · Downtown Dubai</p>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#dishes" class="hover:text-stone-900">Dishes</a>
+      <a href="#supra" class="hover:text-stone-900">Supra Nights</a>
+      <a href="#visit" class="hover:text-stone-900">Visit Us</a>
+    </nav>
+    <a href="tel:+971581209347" class="gold-bg text-black font-semibold text-sm px-4 py-2 rounded-full">Book a Table</a>
+  </div>
+</header>
+
+<section class="relative pt-16">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop" alt="Qartuli restaurant interior">
+  <div class="absolute inset-0 bg-gradient-to-t from-[#fdf8f5] via-white/20 to-transparent flex items-end">
+    <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
+      <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">A Taste of Georgia,<br>in Downtown Dubai</h1>
+      <p class="mt-3 text-stone-600 max-w-xl">Cheese-filled khachapuri, hand-pleated khinkali and flame-grilled kebabs — authentic Georgian cooking at Dunya Tower, Downtown Dubai. Open daily 12 PM – 12 AM.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="#dishes" class="gold-bg text-black font-semibold px-5 py-3 rounded-full">See Signature Dishes</a>
+        <a href="https://wa.me/971581209347?text=Hello%20Qartuli!%20I%20would%20like%20to%20book%20a%20table." class="bg-white border border-amber-200 px-5 py-3 rounded-full font-semibold">Book on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dishes" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="font-display text-3xl md:text-4xl font-bold">Signature <span class="gold">Dishes</span></h2>
+  <p class="text-stone-500 mt-1">The plates Qartuli is known for.</p>
+  <div class="grid md:grid-cols-3 gap-5 mt-6">
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Grilled kebabs">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Khachapuri</h3>
+        <p class="text-sm text-stone-500 mt-1">Georgia's famous cheese-filled bread, baked fresh and served hot from the oven.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop" alt="Georgian dumplings and shared dishes">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Khinkali</h3>
+        <p class="text-sm text-stone-500 mt-1">Hand-pleated Georgian dumplings — a must-try for every first-time guest.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=1200&auto=format&fit=crop" alt="Grilled meat platter">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Beef &amp; Lamb Kebabs</h3>
+        <p class="text-sm text-stone-500 mt-1">Flame-grilled beef and lamb kebabs, seasoned the Georgian way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="supra" class="bg-white border-y border-amber-100">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="font-display text-3xl font-bold">Live-Music <span class="gold">Supra Nights</span></h2>
+      <p class="text-stone-600 mt-3">A Georgian Supra is a feast with music — join Qartuli's live-music Supra nights for an evening of food, song and Georgian hospitality in Downtown Dubai.</p>
+      <a href="tel:+971581209347" class="mt-5 inline-block gold-bg text-black font-semibold px-5 py-3 rounded-full">Reserve Your Evening</a>
+    </div>
+    <div id="visit" class="card rounded-3xl p-6">
+      <h3 class="font-display text-2xl font-bold">Visit Us</h3>
+      <div class="mt-3 space-y-2 text-stone-600 text-sm">
+        <p>📍 Dunya Tower, Downtown Dubai, UAE</p>
+        <p>🕛 Open daily: 12:00 PM – 12:00 AM</p>
+        <p>📞 058 120 9347</p>
+      </div>
+      <a href="https://wa.me/971581209347?text=Hello%20Qartuli!" class="mt-5 block text-center gold-bg text-black font-semibold px-5 py-3 rounded-full">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-stone-500">
+  <p>© 2026 Qartuli — Free preview website</p>
+  <p class="mt-1">Free preview crafted by <span class="gold font-semibold">Adeel Abbas</span> · Web Developer — this is how your new website could look.</p>
+</footer>
+
+</body>
+</html>
