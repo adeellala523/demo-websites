@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pH5 — Pain Au Levain · Sourdough Bakery &amp; Pizzeria, Dubai Hills</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#f7f5f0;color:#33302a}
+  .font-display{font-family:'Playfair Display',serif}
+  .acc{color:#8a6d3b}
+  .acc-bg{background:linear-gradient(135deg,#b3905a,#8a6d3b)}
+  .card{background:#ffffff;border:1px solid #ece4d2;box-shadow:0 6px 24px rgba(138,109,59,.08)}
+  .hero-img{height:62vh;min-height:420px;object-fit:cover;width:100%}
+  .dish-img{height:190px;object-fit:cover;width:100%}
+</style>
+</head>
+<body>
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b border-amber-100">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div>
+      <p class="font-display text-xl font-bold leading-none">p<span class="acc">H</span>5</p>
+      <p class="text-xs text-stone-500 mt-1">Pain Au Levain · Sourdough Bakery / Pizzeria · Dubai Hills</p>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#menu" class="hover:text-stone-900">Menu</a>
+      <a href="#about" class="hover:text-stone-900">About</a>
+      <a href="#visit" class="hover:text-stone-900">Visit Us</a>
+    </nav>
+    <a href="#visit" class="acc-bg text-white font-semibold text-sm px-4 py-2 rounded-full">Find Us</a>
+  </div>
+</header>
+<section class="relative pt-16">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" alt="pH5 sourdough bread">
+  <div class="absolute inset-0 bg-gradient-to-t from-[#f7f5f0] via-white/20 to-transparent flex items-end">
+    <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
+      <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">Pain Au Levain,<br>in Dubai Hills</h1>
+      <p class="mt-3 text-stone-600 max-w-xl">Sourdough breads, sandwiches, viennoiserie and pizza — plus Berliners and speciality coffee, at 2 Park Lane, Tower B.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="#menu" class="acc-bg text-white font-semibold px-5 py-3 rounded-full">View Menu</a>
+        <a href="#visit" class="bg-white border border-amber-200 px-5 py-3 rounded-full font-semibold">Visit Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🍞</p><p class="font-semibold mt-1">Sourdough Breads</p><p class="text-sm text-stone-500">Naturally leavened, baked fresh</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🥐</p><p class="font-semibold mt-1">Viennoiserie</p><p class="text-sm text-stone-500">Flaky, buttery pastries</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🍩</p><p class="font-semibold mt-1">Berliners</p><p class="text-sm text-stone-500">The house sweet speciality</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🍕</p><p class="font-semibold mt-1">Pizza</p><p class="text-sm text-stone-500">Sourdough-based, from the bakery</p></div>
+</section>
+<section id="menu" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl md:text-4xl font-bold">From the <span class="acc">Bakery</span></h2>
+  <p class="text-stone-500 mt-1">Real categories from pH5's own menu.</p>
+  <div class="grid md:grid-cols-3 gap-5 mt-6">
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" alt="Sourdough bread">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Sourdough Breads</h3>
+        <p class="text-sm text-stone-500 mt-1">Naturally leavened loaves — the heart of Pain Au Levain.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop" alt="Viennoiserie">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Viennoiserie</h3>
+        <p class="text-sm text-stone-500 mt-1">Croissants and laminated pastries, baked in-house.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1587241321921-91a834d6d191?q=80&w=1200&auto=format&fit=crop" alt="Berliners">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Berliners</h3>
+        <p class="text-sm text-stone-500 mt-1">Soft, filled doughnuts — a pH5 signature sweet.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=1200&auto=format&fit=crop" alt="Sandwich">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Sandwiches</h3>
+        <p class="text-sm text-stone-500 mt-1">Built on the bakery's own sourdough bread.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop" alt="Pizza">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Pizza</h3>
+        <p class="text-sm text-stone-500 mt-1">Sourdough-based pizza from the bakery oven.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop" alt="Speciality coffee">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Speciality Coffee</h3>
+        <p class="text-sm text-stone-500 mt-1">Carefully brewed coffee to go with the bakes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="bg-white border-y border-amber-100">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="font-display text-3xl font-bold">Bakery &amp; Pizzeria, <span class="acc">One Roof</span></h2>
+      <p class="text-stone-600 mt-3">pH5 brings French levain baking to Dubai Hills — breads, sandwiches, viennoiserie and pizza, all from one small bakery.</p>
+      <ul class="mt-4 space-y-2 text-stone-600 text-sm">
+        <li>✔ Sourdough breads &amp; sandwiches</li>
+        <li>✔ Viennoiserie &amp; Berliners</li>
+        <li>✔ Pizza &amp; speciality coffee</li>
+      </ul>
+    </div>
+    <div id="visit" class="card rounded-3xl p-6">
+      <h3 class="font-display text-2xl font-bold">Visit Us</h3>
+      <div class="mt-3 space-y-2 text-stone-600 text-sm">
+        <p>📍 2 Park Lane, Tower B, Dubai Hills, Dubai</p>
+        <p>📱 @ph5.ae on Instagram</p>
+      </div>
+      <a href="https://maps.app.goo.gl/BDXQpyUkBprzntx29?g_st=iw" class="mt-5 block text-center acc-bg text-white font-semibold px-5 py-3 rounded-full">Get Directions</a>
+    </div>
+  </div>
+</section>
+<footer class="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-stone-500">
+  <p>Free preview page for pH5 — crafted by <span class="acc font-semibold">Adeel Abbas</span> · Web Developer</p>
+</footer>
+</body>
+</html>
