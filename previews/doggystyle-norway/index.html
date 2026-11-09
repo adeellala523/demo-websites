@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DoggyStyle Oslo — Dog Grooming &amp; Spa, Oslo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#f0fdfa;color:#292524}
+  .font-display{font-family:'Playfair Display',serif}
+  .acc{color:#0f766e}
+  .acc-bg{background:linear-gradient(135deg,#14b8a6,#134e4a)}
+  .card{background:#ffffff;border:1px solid #ccfbf1;box-shadow:0 6px 24px rgba(19,78,74,.10)}
+  .hero-img{height:62vh;min-height:420px;object-fit:cover;width:100%}
+  .dish-img{height:190px;object-fit:cover;width:100%}
+</style>
+</head>
+<body>
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <div>
+      <p class="font-display text-xl font-bold leading-none">DoggyStyle Oslo</p>
+      <p class="text-xs text-stone-500 mt-1">Dog Grooming &amp; Spa — Oslo</p>
+    </div>
+    <nav class="hidden md:flex gap-6 text-sm text-stone-500">
+      <a href="#services" class="hover:text-stone-900">Services</a>
+      <a href="#about" class="hover:text-stone-900">About</a>
+      <a href="#visit" class="hover:text-stone-900">Visit</a>
+    </nav>
+    <a href="https://instagram.com/doggystyleoslo" class="acc-bg text-white font-semibold text-sm px-4 py-2 rounded-full">Follow on Instagram</a>
+  </div>
+</header>
+<section class="relative pt-16">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1200&auto=format&fit=crop" alt="DoggyStyle Oslo in Oslo">
+  <div class="absolute inset-0 bg-gradient-to-t from-[#f0fdfa] via-white/20 to-transparent flex items-end">
+    <div class="max-w-6xl mx-auto px-4 pb-10 w-full">
+      <h1 class="font-display text-4xl md:text-6xl font-extrabold leading-tight">Happy Pets,<br>Loving Care</h1>
+      <p class="mt-3 text-stone-600 max-w-xl">Oslo&#x27;s friendly dog grooming salon — cuts, washing, spa packages and puppy introductions, with calm hands and a lot of patience.</p>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href="#services" class="acc-bg text-white font-semibold px-5 py-3 rounded-full">See Services</a>
+        <a href="https://instagram.com/doggystyleoslo" class="bg-white border px-5 py-3 rounded-full font-semibold">Message on Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🐶</p><p class="font-semibold mt-1">Gentle Grooming</p><p class="text-sm text-stone-500">Calm, patient hands</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🛁</p><p class="font-semibold mt-1">Spa &amp; Wash</p><p class="text-sm text-stone-500">Full spa packages</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">✂️</p><p class="font-semibold mt-1">Breed Cuts</p><p class="text-sm text-stone-500">Cuts for every breed</p></div>
+  <div class="card rounded-2xl p-4"><p class="text-2xl">🐾</p><p class="font-semibold mt-1">Puppy First Visits</p><p class="text-sm text-stone-500">Gentle introductions</p></div>
+</section>
+<section id="services" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl md:text-4xl font-bold">Our <span class="acc">Services</span></h2>
+  <p class="text-stone-500 mt-1">Grooming your dog will actually enjoy.</p>
+  <div class="grid md:grid-cols-3 gap-5 mt-6">
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=1200&auto=format&fit=crop" alt="Cuts &amp; Washing">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Cuts &amp; Washing</h3>
+        <p class="text-sm text-stone-500 mt-1">Breed cuts, washing and drying — gentle, unhurried, and always at your dog&#x27;s pace.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?q=80&w=1200&auto=format&fit=crop" alt="Spa Packages">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Spa Packages</h3>
+        <p class="text-sm text-stone-500 mt-1">The full spa treatment: wash, cut, nails, ears — your dog leaves clean, calm and handsome.</p>
+      </div>
+    </div>
+    <div class="card rounded-3xl overflow-hidden">
+      <img class="dish-img" src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?q=80&w=1200&auto=format&fit=crop" alt="Puppy Introductions">
+      <div class="p-5">
+        <h3 class="font-display text-xl font-bold">Puppy Introductions</h3>
+        <p class="text-sm text-stone-500 mt-1">A gentle first visit for puppies — short, positive, and the start of a lifetime of easy grooming.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="bg-white border-y">
+  <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h2 class="font-display text-3xl font-bold">Calm Hands, Happy Dogs</h2>
+      <p class="text-stone-600 mt-3">DoggyStyle has groomed Oslo&#x27;s dogs for years — now at Ullevål, Vestgrensa 4. Small, local and patient, from nervous puppies to old friends.</p>
+      <ul class="mt-4 space-y-2 text-stone-600 text-sm">
+        <li>✔ Cuts, washing &amp; spa packages</li>
+        <li>✔ Self-service tub &amp; dryer rental</li>
+        <li>✔ Puppy introductions &amp; hand-stripping</li>
+      </ul>
+    </div>
+    <div id="visit" class="card rounded-3xl p-6">
+      <h3 class="font-display text-2xl font-bold">Visit Us</h3>
+      <div class="mt-3 space-y-2 text-stone-600 text-sm">
+        <p>📍 Oslo, Norway</p>
+        <p>📱 @doggystyleoslo on Instagram</p>
+        <p>🌐 https://doggystyle-oslo.no/</p>
+      </div>
+      <a href="https://instagram.com/doggystyleoslo" class="mt-5 block text-center acc-bg text-white font-semibold px-5 py-3 rounded-full">Message Us on Instagram</a>
+    </div>
+  </div>
+</section>
+<footer class="max-w-6xl mx-auto px-4 py-8 text-center text-sm text-stone-500">
+  <p>Free preview page for DoggyStyle Oslo — crafted by <span class="acc font-semibold">Adeel Abbas</span> · Web Developer</p>
+</footer>
+</body>
+</html>
